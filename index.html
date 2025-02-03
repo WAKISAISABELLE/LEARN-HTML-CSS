@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{
+            background-image:url("leonard-cotte-c1Jp-fo53U8-unsplash.jpg");
+            background-position:center ;
+            background-size: cover;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            padding-top: 50px;
+        }
+        nav{
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width:100%;
+            z-index:1000;
+        }
+        nav ul{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li{
+            margin:0 15px;
+        }
+        nav ul li a{
+            display: block;
+            color:white;
+            text-align: center;
+            padding:14px 20px;
+            text-decoration: none;
+        }
+        nav ul li a:hover{
+            background-color: #0e2dd8;
+        }
+        p{
+            color:black;
+            font-size: 16px;
+            font-family: Georgia, 'Times New Roman', Times, serif ;
+        }
+        h1,h2{
+            color:black;
+            font-weight:bold;
+        }
+        .Proficiency-scale{
+            display:flex;
+            align-items:center;
+            position:relative;
+            height:auto;
+            margin:10px 0;
+        }
+        .Proficiency-scale div{
+            width:25%;
+            height:10px;
+            background-color:goldenrod;
+        }
+        header{
+            background-color:none;
+            color: #B1B1B1;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .container{
+            display:flexbox;
+            flex-direction:column;
+            flex-wrap:wrap;
+            justify-content:space-around; 
+            padding: 20px;
+            margin: 40px;   
+            background-color: None;
+            box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+         }
+         .profile-photo{
+            width:150px;
+            height:150px;
+            border-radius: 50%;
+            margin:20px auto;
+            display: block;
+         }
+        .box{
+            background-color: rgb(73, 68, 136);
+            border:1px solid #FFB6C1;
+            border-radius: 10px;
+            box-shadow:0 0 10px rgba(0,0,0,0,1);
+            margin:30px;
+            padding:20px;
+            width:auto;
+            height: auto;
+            display:flexbox;
+            clear: both;
+        }
+        .box h2{
+             margin-top: 0;
+        }
+        .box ul{
+            list-style:inside;
+            padding:20px;
+            margin:30px;
+        }
+        .box li{
+            margin-bottom: 10px;
+        }
+        .contact information{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer{
+            background-color: #4a0c52;
+            color: #ffc5ff;;
+            padding:1em;
+            text-align: center;
+            grid-area: footer;
+        }
+        footer ul{
+            list-style-type: disc;
+            padding: 0;
+            margin:0;
+        }
+        footer li{
+            display: inline-block;
+            margin-right: 20px ;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#INTRODUCTION">Introduction</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#Hobbies&Interests">Hobbies&Interests</a></li>
+            <li><a href="#Technicalskills">Technicalskills</a></li>
+            <li><a href="#SoftSkills">SoftSkills</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#ContactInformation">ContactInformation</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Isabelle Wakisa</h1>
+        <p>Data Science student</p>
+    </header>
+    <section id="INTRODUCTION">
+        <h2>WELCOME TO MY PORTFOLIO</h2>
+        <img src=""alt="Isabelle Wakisa">
+        <p>Hello, I'm Isabelle Wakisa, a student of Data Science and Analytics, eager to develop skills in Tech and Programming.Through assignments, I've gained foundational knowledge in Strucctured programming. I am excited to apply theoretical concepts to real-world projects.</p>
+    </section>
+    <div class="container">
+     <div class="box"id= "education">
+         <h2>Education</h2>
+            <ul>
+                <il>Data Science and Analytics,Uganda Christian University</il>
+                <li>Alevel,Greenhill Academy</li>
+                <li>Olevel,St.Joseph's Girls SS Nsambya</li>
+            </ul>
+        </div>
+
+    <div class="box"id="Hobbies&Interests">
+        <h2> Hobbies & Interests</h2>
+        <ul>
+            <li>Reading</li>
+            <li>Play the flute</li>
+        </ul>
+    </div>
+
+    <div class="box" id= "Technical Skills">
+        <h2>Technical skills</h2>
+        
+        <h3>Progamming languages:</h3>
+        <div class="Skills">
+            <span>Python</span>
+            <div class="Proficiency-scale">
+                <div class="scale-beginner"></div>
+                <div class="scale-intermediate"></div>
+                <div class="scale-advanced"></div>
+                <div class="scale-expert"></div>
+                <div class="scale-marker" style="left:25%;"></div>
+                <span class="scale-label">Beginner</span>
+            </div>
+        </div>
+
+            <h3>Software proficiency:</h3>
+            <div class="Skills">
+                <span>Google Workspace</span>
+                <div class="Proficiency-scale">
+                    <div class="scale-beginner"></div>
+                    <div class="scale-intermediate"></div>
+                    <div class="scale-advanced"></div>
+                    <div class="scale-expert"></div>
+                    <div class="scale-marker" style="left:50%;"></div>
+                    <span class="scale-label">Intermediate</span>
+                </div>
+            </div>
+    </div>
+    <div class="box" id= "Soft-Skills">
+        <h2>Soft Skils</h2>
+        <ul>
+            <li>Time Managment:Organized and well efficient with deadlines.</li>
+            <li>Communication:Effective written and verbal communiication.</li>
+            <li>Teamwork:Active team player.</li>
+        </ul>
+    </div>
+
+    <div class="box" id= "Experience">
+        <h2>Experience</h2>
+        <p>Currently seeking volunteer work.</p>
+    </div>
+    <footer>
+        |<div class="container">
+        <p>Contact information</p>
+        <ul>
+            <li><a href="mailto:isabellewakisa@gmail.com">Email</a></li>
+            <li><a href="(link unavailable)" target="_blank">linkedin.com/in/isabellewakisa</a></li>
+        </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
