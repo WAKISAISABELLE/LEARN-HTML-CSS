@@ -1,0 +1,4 @@
+__year_of_birth=int(input("when were you born?"))
+current_year=2024
+age=current_year-__year_of_birth
+print(f"the age is{age}")
